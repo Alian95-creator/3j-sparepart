@@ -72,16 +72,18 @@ body{background:#0f2027;color:#fff;}
 .hero{height:100vh;background:url('https://astraotoshop.com/asset/article-aop/Memilih-Spare-Part-Mobil-Tepat-Panduan-Lengkap-dan-Tips%20-itu_20240805.webp') center/cover no-repeat;display:flex;align-items:center;justify-content:center;position:relative;text-align:center;}
 .hero-overlay{position:absolute;width:100%;height:100%;background:rgba(0,0,0,0.6);}
 .hero-content{position:relative;z-index:2;background:rgba(255,255,255,0.08);padding:40px;border-radius:20px;backdrop-filter:blur(10px);}
-.btn{display:inline-block;margin-top:15px;padding:10px 25px;background:#00c853;color:#fff;border-radius:5px;text-decoration:none;}
+.btn{display:inline-block;margin-top:15px;padding:10px 25px;background:#ee2f16f5;color:#fff;border-radius:5px;text-decoration:none;}
 
 /* PRODUK */
-.produk{padding:120px 0;text-align:center;}
-.produk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;margin-top:50px;}
-.produk-card{background:rgba(255,255,255,0.08);border-radius:20px;overflow:hidden;transition:0.4s;backdrop-filter:blur(10px);}
+.produk{padding:150px 0;text-align:center;}
+.produk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap: 30px; margin-top:50px;}
+.produk-card{display: flex; flex-direction: column; background:rgba(255,255,255,0.08);border-radius:20px;overflow:hidden;transition:0.4s;backdrop-filter:blur(10px);}
+.produk-card p {margin-bottom: 25px;}
 .produk-card:hover{transform:translateY(-10px);box-shadow:0 15px 35px rgba(0,0,0,0.5);}
 .produk-card img{width:100%;display:block;}
-.produk-info{padding:20px;text-align:left;}
-.btn-small{display:inline-block;padding:8px 18px;background:#00c853;color:#fff;border-radius:5px;text-decoration:none;}
+.produk-card button {margin-top: 6px;}
+.produk-info{padding:20px; text-align:center;}
+.button{display:flex; justify-content: space-around; align-items: center; padding: 20px;background:#ee2f16f5;color:#fff;border-radius:20px;text-decoration:none; transform: translateY(-3px);}
 
 /* TESTIMONI */
 .testimoni{padding:100px 0;text-align:center;overflow:hidden;}
